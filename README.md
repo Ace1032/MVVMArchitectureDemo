@@ -1,4 +1,4 @@
-#### Project Name: MVVMdemo
+# Project Name: MVVMdemo
 
 Description:
 MVVMdemo is an Android app showcasing the Model-View-ViewModel (MVVM) architecture pattern. The MainActivity serves as the View, observing changes in data from the ViewModel. The ViewModel, represented by CityViewModel, retrieves city data from CityDataProvider in the Model layer. Using LiveData, ViewModel streams data to MainActivity without MainActivity having direct reference to ViewModel. This separation enhances code organization and maintainability.
